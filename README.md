@@ -102,6 +102,15 @@ Browsers and the IETF standard use hyphens as the separator, like `en-GB`. Some 
 lang_map = zh_CN: zh-CN, ko_KR: ko-KR
 ```
 
+#### `zh-CN` and  `zh-TW` vs `zh-HANS` and `zh-HANT`
+
+Summary from [mozilla/addons-server/issues/5829]( https://github.com/mozilla/addons-server/issues/5829#issuecomment-325935847):
+> In practice, `zh-CN` and `zh-SG` are subsets of `zh-Hans`; `zh-TW` and `zh-HK` are subset of `zh-Hant`. So `zh-CN` if not resolved directly, should be resolved as `zh-Hans`.
+> 
+> The difference within the subsets are usually vocabularies and translation costumes (much like the difference between `en_US` and `en_UK`). But the scripts used are common within the sets.
+
+More: https://www.w3.org/International/articles/bcp47/
+
 ###  Automatically Updating Source Locale at Transifex
 
 >  Manually updating source files isn't fun or scalable if you've got frequent updates. To avoid this, you can have Transifex automatically check for updates to your source file. You simply need to provide Transifex with the public URL of the file. The file can be hosted on any service, such as GitHub 
