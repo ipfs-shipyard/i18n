@@ -32,6 +32,8 @@ Continue reading!
     - [Language Mapping](#language-mapping)
     - [Automatically Updating Source Locale at Transifex](#automatically-updating-source-locale-at-transifex)
     - [Sharing Translation Memory](#sharing-translation-memory)
+    - **Note:** [Someone submitted a PR with translations instead of using Transifex
+](#someone-submitted-a-pr-with-translations-instead-of-using-transifex)
 
 ## What does i18n mean?
 
@@ -129,6 +131,17 @@ Having this, the only manual step is to fetch fresh translations via `tx pull -a
 
 Right now we have a single TM group named "ipfs".
 
+
+### Someone submitted a PR with translations instead of using Transifex
+
+We don't accept direct PRs with translated strings coming from users other than Transifex itself, as those changes can be lost.
+
+Translations need to be submitted using Transifex project at https://www.transifex.com/ipfs/public/
+
+PRs that  bypass Transifex should be **closed without merging**, with thank you note and ask to apply changes via Transifex or just a link to  [ipfs/i18n#how-can-i-contribute-translation-for-my-language](https://github.com/ipfs/i18n#how-can-i-contribute-translation-for-my-language) ([example](https://github.com/ipfs-shipyard/ipfs-webui/pull/950)).  
+
+
 ### Dark Themes 
+   - [Dark Reader](https://darkreader.org) (Universal Browser Extension)
    - [Dark Theme for OLED](https://userstyles.org/styles/161907/transifex-black)
    - [Geeko Dark Theme](https://userstyles.org/styles/164067/transifex-geeko-dark)
