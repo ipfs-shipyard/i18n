@@ -14,7 +14,7 @@ Go to https://www.transifex.com/ipfs/public/, select languages you want to help 
 Transifex is localization platform for crowdsourcing translations from IPFS Community:
 - Everyone can contribute translations.
 - Missing language? Request it via Transifex UI
-- Night Owl? Try [Dark Themes](#dark-themes) :owl:
+- Night Owl? Try [Dark Mode](#dark-mode) :owl:
 
 That is all!
 
@@ -141,7 +141,13 @@ Translations need to be submitted using Transifex project at https://www.transif
 PRs that  bypass Transifex should be **closed without merging**, with thank you note and ask to apply changes via Transifex or just a link to  [ipfs/i18n#how-can-i-contribute-translation-for-my-language](https://github.com/ipfs/i18n#how-can-i-contribute-translation-for-my-language) ([example](https://github.com/ipfs-shipyard/ipfs-webui/pull/950)).  
 
 
-### Dark Themes 
+### Dark Mode 
+
+Transifex supports _Dark Mode_ now, it can be enabled in _Editor Preferences_:
+
+> ![Enabling Dark Mode on Transifex](https://user-images.githubusercontent.com/157609/66070351-6fa97900-e551-11e9-8ff0-dbb24a907732.png)
+
+In the past, we had to use dedicated extensions:
    - [Dark Reader](https://darkreader.org) (Universal Browser Extension)
    - [Dark Theme for OLED](https://userstyles.org/styles/161907/transifex-black)
    - [Geeko Dark Theme](https://userstyles.org/styles/164067/transifex-geeko-dark)
