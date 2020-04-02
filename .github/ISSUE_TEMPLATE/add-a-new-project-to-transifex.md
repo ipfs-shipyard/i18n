@@ -1,6 +1,9 @@
 ---
 name: Add a new project to Transifex
-about: 'Select if your project is already i18n-enabled'
+about: Select if your project is already i18n-enabled
+title: ''
+labels: need/triage
+assignees: ''
 
 ---
 
