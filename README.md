@@ -13,6 +13,7 @@ Go to https://www.transifex.com/ipfs/public/, select languages you want to help 
 
 Transifex is localization platform for crowdsourcing translations from IPFS Community:
 - Everyone can contribute translations.
+- Be sure to change your Transifex notification settings to be notified when translation sources change.
 - Missing language? Request it via Transifex UI
 - Night Owl? Try [Dark Mode](#dark-mode) :owl:
 
