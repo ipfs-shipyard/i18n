@@ -9,7 +9,7 @@
 
 ## How can I contribute translation for my language?
 
-Go to https://www.transifex.com/ipfs/public/, select languages you want to help with and start translating!  
+Go to https://app.transifex.com/ipfs/, select languages you want to help with and start translating!  
 
 Transifex is localization platform for crowdsourcing translations from IPFS Community:
 - Everyone can contribute translations.
@@ -56,7 +56,7 @@ More: https://en.wikipedia.org/wiki/Internationalization_and_localization:
 1. Extract strings into separate files(s) in [JSON-ICU or PO formats](#locale-file-formats) and wire them up to be loaded by your app.
    - See sections below for platform-specific notes
 1. Create a PR with above changes in your repository
-1. Create an issue in this repo to: [Add a new project to Transifex](https://github.com/lidel/i18n/issues/new/choose)
+1. Create an issue in this repo to: [Add a new project to Transifex](https://github.com/ipfs/i18n/issues/new/choose)
 
 Next steps, after your project is added to Transifex:
 
@@ -137,9 +137,9 @@ Right now we have a single TM group named "ipfs".
 
 We don't accept direct PRs with translated strings coming from users other than Transifex itself, as those changes can be lost.
 
-Translations need to be submitted using Transifex project at https://www.transifex.com/ipfs/public/
+Translations need to be submitted using Transifex project at https://app.transifex.com/ipfs/
 
-PRs that  bypass Transifex should be **closed without merging**, with thank you note and ask to apply changes via Transifex or just a link to  [ipfs/i18n#how-can-i-contribute-translation-for-my-language](https://github.com/ipfs/i18n#how-can-i-contribute-translation-for-my-language) ([example](https://github.com/ipfs-shipyard/ipfs-webui/pull/950)).  
+PRs that  bypass Transifex should be **closed without merging**, with thank you note and ask to apply changes via Transifex or just a link to [ipfs/i18n#how-can-i-contribute-translation-for-my-language](https://github.com/ipfs/i18n#how-can-i-contribute-translation-for-my-language) ([example](https://github.com/ipfs-shipyard/ipfs-webui/pull/950)).  
 
 
 ### Dark Mode 
@@ -150,5 +150,3 @@ Transifex supports _Dark Mode_ now, it can be enabled in _Editor Preferences_:
 
 In the past, we had to use dedicated extensions:
    - [Dark Reader](https://darkreader.org) (Universal Browser Extension)
-   - [Dark Theme for OLED](https://userstyles.org/styles/161907/transifex-black)
-   - [Geeko Dark Theme](https://userstyles.org/styles/164067/transifex-geeko-dark)
