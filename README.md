@@ -9,10 +9,10 @@
 
 ## How can I contribute translation for my language?
 
-Go to https://app.transifex.com/ipfs/, select languages you want to help with and start translating!  
+Go to https://explore.transifex.com/ipfs/, select projects and languages you want to help with and start translating!  
 
 Transifex is localization platform for crowdsourcing translations from IPFS Community:
-- Everyone can contribute translations.
+- Everyone can contribute translations, all you need is an account.
 - Be sure to change your Transifex notification settings to be notified when translation sources change.
 - Missing language? Request it via Transifex UI
 - Night Owl? Try [Dark Mode](#dark-mode) :owl:
